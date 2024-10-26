@@ -1,0 +1,32 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+#interactive-image {
+    width: 100%;
+    max-width: 600px;
+}
+
+.dot {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot:hover {
+    background-color: gray;
+}
