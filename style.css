@@ -27,6 +27,6 @@ body {
     cursor: pointer;
 }
 
-.dot:hover {
+.dot.active {
     background-color: gray;
 }
